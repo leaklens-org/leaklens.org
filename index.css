@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Arial Narrow", Arial, Helvetica, sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-mono: "Courier New", Courier, monospace;
+
+  --color-bg:      #141414;
+  --color-bg2:     #1B1B1B;
+  --color-coral:   #D6A24C;
+  --color-white:   #F5F5F0;
+  --color-gray:    #A8A8A0;
+  --color-line:    #2E2E2C;
+}
+
+@layer base {
+  * { box-sizing: border-box; }
+
+  body {
+    background-color: #141414;
+    color: #F5F5F0;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: #D6A24C;
+    color: #141414;
+  }
+}
