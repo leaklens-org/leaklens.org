@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/api-leakcheck/(.*)", "destination": "https://leakcheck.io/$1" },
+    { "source": "/api-aleph/(.*)", "destination": "https://aleph.occrp.org/$1" },
+    { "source": "/api-xposed/(.*)", "destination": "https://api.xposedornot.com/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

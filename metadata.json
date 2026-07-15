@@ -1,0 +1,6 @@
+{
+  "name": "LeakLens",
+  "description": "Independent Civic Data Watchdog — check where your personal data has been exposed.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
